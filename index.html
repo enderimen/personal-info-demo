@@ -20,33 +20,41 @@
         <link rel="icon" href="./assets/images/favicon.svg" type="image/x-icon">
       <meta name="theme-color" content="#7952b3">
       <style>
-         .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            user-select: none;
-         }
-         .cover {
-             height: 100vh;
-             width: 100%;
-             display: flex;
-             align-items: center;
-             justify-content: center;
-         }
-         .card {
-             overflow: hidden;
-         }
-         .card img {
-            transition: ease-in-out 300ms;
-         }
-         .card img:hover {
-            cursor: pointer;
-            transform: scale(1.05);
-         }
-         @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
+        .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+        }
+        .cover {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card {
+            overflow: hidden;
+        }
+        .card img {
+        transition: ease-in-out 300ms;
+        }
+        .card img:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        }
+        @media only screen and (max-width: 768px) {
+            .card.shadow-sm img {
+                max-height: 100%;
+            }
+        }
+        @media only screen and (min-width: 769px) {
+            .card.shadow-sm img {
+                max-height: 400px;
+            }
+            .lighthouse-result {
+                height: 100% !important;
             }
         }
       </style>
@@ -80,7 +88,7 @@
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-12 g-3">
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img height="400px" src="./img/4.png" alt="">
+                                <img src="./img/4.png" alt="">
                                 <div class="card-body text-center">
                                     <p class="card-text">For Engineer, Lawyer or Service Industry etc.</p>
                                 </div>
@@ -88,7 +96,7 @@
                         </div>
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img height="400px" src="./img/4.4.png" alt="">
+                                <img src="./img/4.4.png" alt="">
                                 <div class="card-body text-center">
                                     <p class="card-text">For Assistant, Artist or Researcher etc.</p>
                                 </div>
@@ -96,7 +104,7 @@
                         </div>
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img height="400px" src="./img/2.png" alt="">
+                                <img src="./img/2.png" alt="">
                                 <div class="card-body text-center">
                                     <p class="card-text">For etc.</p>
                                 </div>
@@ -104,15 +112,15 @@
                         </div>
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img height="400px" src="./img/2.2.png" alt="">
+                                <img src="./img/2.2.png" alt="">
                                 <div class="card-body text-center">
-                                    <p class="card-text">For Footballer, Model or Author etc.</p>
+                                    <p class="card-text">For Motorcyclist, skier or more etc.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img height="400px" src="./img/7.png" alt="">
+                                <img src="./img/7.png" alt="">
                                 <div class="card-body text-center">
                                     <p class="card-text">For Runner, Bodybuilder, Blogger etc.</p>
                                 </div>
@@ -120,7 +128,7 @@
                         </div>
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img height="400px" src="./img/7.7.png" alt="">
+                                <img src="./img/7.7.png" alt="">
                                 <div class="card-body text-center">
                                     <p class="card-text">For Painter, Teacher or Instructor etc.</p>
                                 </div>
@@ -128,7 +136,7 @@
                         </div>
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img height="400px" src="./img/3.png" alt="">
+                                <img src="./img/3.png" alt="">
                                 <div class="card-body text-center">
                                     <p class="card-text">For UI/UX, Graphic or Web Designer etc.</p>
                                 </div>
@@ -136,7 +144,7 @@
                         </div>
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img height="400px" src="./img/3.3.png" alt="">
+                                <img src="./img/3.3.png" alt="">
                                 <div class="card-body text-center">
                                     <p class="card-text">For Musian, Gamer or YouTuber etc.</p>
                                 </div>
@@ -144,7 +152,7 @@
                         </div>
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img height="400px" src="./img/5.png" alt="">
+                                <img src="./img/5.png" alt="">
                                 <div class="card-body text-center">
                                     <p class="card-text">For Photographer, Poetrist etc.</p>
                                 </div>
@@ -152,7 +160,7 @@
                         </div>
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img height="400px" src="./img/5.5.png" alt="">
+                                <img src="./img/5.5.png" alt="">
                                 <div class="card-body text-center">
                                     <p class="card-text">For Doctor, Nurse, Health Employee etc.</p>
                                 </div>
@@ -160,7 +168,7 @@
                         </div>
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img height="400px" src="./img/6.png" alt="">
+                                <img src="./img/6.png" alt="">
                                 <div class="card-body text-center">
                                     <p class="card-text">For Singer, Real Estate Agent etc.</p>
                                 </div>
@@ -168,7 +176,7 @@
                         </div>
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img height="400px" src="./img/6.6.png" alt="">
+                                <img src="./img/6.6.png" alt="">
                                 <div class="card-body text-center">
                                     <p class="card-text">For Swimmer, Student etc.</p>
                                 </div>
@@ -254,7 +262,7 @@
                     <div class="row row-cols-1 row-cols-sm-12 row-cols-md-12 g-3">
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img src="./img/google-lightouse-result.png" alt="">
+                                <img class="lighthouse-result" src="./img/google-lightouse-result.png" alt="">
                                 <div class="card-body text-center">
                                     <p class="card-text">It has passed all of the <strong>Google Lighthouse</strong> tests with 100% success. The result is as above.</p>
                                 </div>
